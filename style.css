@@ -1,0 +1,327 @@
+/* importa fonte de letras */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Atribui as seguintes caracteristicas em todos os elementos  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* tamanho da tela do celular*/
+@media (max-width: 480px) {
+
+    header {
+        display: flex;
+    }
+    
+    .box1 {
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        height: 95px;
+        width: 100rem;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .imglogo img {
+        display: flex;
+        height: 70px;
+        width: 70px;
+    }
+
+    .searchicon {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* usada pra fazer os icons aparecerem */
+    .usericon svg {
+        width: 1.5rem;
+    }
+
+    /* os icons do mail e user estao na mesma div */
+    .usericon {
+        display: flex;
+        width: 25px;
+        height: 25px;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo {
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-family: "Poppins", serif;
+    }    
+
+    .copy {
+        width: 25px;
+        height: 25px;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .box2 {
+        display: flex;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        box-shadow: 0px 1px 5px;
+        width: 300px; 
+        justify-content: center;
+    }
+
+    .box2 ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+    .box2 ul a {
+        text-decoration: none;
+        font-family: "Poppins", serif;
+        color: rgb(0, 0, 0);
+    }
+
+    .background {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .fundoimg {
+        display: flex;
+        margin-top: 60px;
+        width: 27rem;
+        height: auto;
+        background-color: rgba(232, 239, 240, 0.897);
+        border-radius: 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logoimg2 img {
+        margin-left: 0.5rem;
+        height: 80px;
+        width: 80px;
+        border-radius: 1rem;
+    }
+
+    h2 {
+        display: flex;
+        font-family: "Poppins", serif;
+        justify-content: center;
+        transform: translate(0, -3.3rem);
+    }
+
+    #p-prin {
+        font-family: "Poppins", serif;
+        word-wrap: break-word;
+        transform: translate(0, -2rem);
+    }
+}
+
+/* tamanho da tela do celular e tablet na header */
+@media (min-width: 481px) and (max-width: 768px) {
+
+    header {
+        display: flex;
+    }
+    
+    .box1 {
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        height: 95px;
+        width: 50rem;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .imglogo img {
+        display: flex;
+        height: 70px;
+        width: 70px;
+    }
+
+    .searchicon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .usericon svg {
+        width: 1.5rem;
+    }
+
+    .usericon {
+        display: flex;
+        width: 25px;
+        height: 25px;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo {
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-family: "Poppins", serif;
+    }    
+
+    .copy {
+        width: 25px;
+        height: 25px;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .box2 {
+        display: flex;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        box-shadow: 0px 1px 5px;
+        width: 300px; 
+        justify-content: center;
+    }
+
+    .box2 ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+    .box2 ul a {
+        text-decoration: none;
+        font-family: "Poppins", serif;
+        color: rgb(0, 0, 0);
+    }
+}
+
+/* tamanho da tela de desktops e telas maiores */
+@media (min-width: 769px) and (max-width: 3000px) {
+
+    header {
+        display: flex;
+    }
+    
+    .box1 {
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        height: 95px;
+        width: 200rem;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    .imglogo img {
+        display: flex;
+        height: 70px;
+        width: 70px;
+    }
+
+    .searchicon {
+        width: 25px;
+        height: 25px;
+    }
+
+    .usericon svg {
+        width: 1.5rem;
+    }
+
+    .usericon {
+        display: flex;
+        width: 25px;
+        height: 25px;
+        flex-direction: row;
+        gap: 8px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .titulo {
+        margin-top: 3rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-family: "Poppins", serif;
+    }    
+
+    .copy {
+        width: 25px;
+        height: 25px;
+    }
+
+    .brand {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    .box2 {
+        display: flex;
+        border: 1px solid #000000;
+        border-radius: 10px;
+        box-shadow: 0px 1px 5px;
+        width: 300px; 
+        justify-content: center;
+    }
+
+    .box2 ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+
+    }
+
+    .box2 ul a {
+        text-decoration: none;
+        font-family: "Poppins", serif;
+        color: rgb(0, 0, 0);
+    }
+}
+
