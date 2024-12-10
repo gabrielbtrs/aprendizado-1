@@ -135,6 +135,7 @@
     }
 
     #p-prin {
+        padding: 10px;
         font-family: "Poppins", serif;
         word-wrap: break-word;
         transform: translate(0, -2rem);
