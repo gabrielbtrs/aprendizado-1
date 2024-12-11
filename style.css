@@ -233,6 +233,46 @@
         font-family: "Poppins", serif;
         color: rgb(0, 0, 0);
     }
+
+    .background {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .fundoimg {
+        margin-left: 1rem;
+        display: flex;
+        margin-top: 60px;
+        width: 35rem;
+        height: auto;
+        background-color: rgba(232, 239, 240, 0.897);
+        border-radius: 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logoimg2 img {
+        margin-top: 10px;
+        margin-left: 0.5rem;
+        height: 80px;
+        width: 80px;
+        border-radius: 1rem;
+    }
+
+    h2 {
+        display: flex;
+        font-family: "Poppins", serif;
+        justify-content: center;
+        transform: translate(0, -3.3rem);
+    }
+
+    #p-prin {
+        padding: 10px;
+        font-family: "Poppins", serif;
+        word-wrap: break-word;
+        transform: translate(0, -2rem);
+    }
 }
 
 /* tamanho da tela de desktops e telas maiores */
@@ -324,6 +364,46 @@
         text-decoration: none;
         font-family: "Poppins", serif;
         color: rgb(0, 0, 0);
+    }
+
+    .background {
+        align-self: center;
+        display: flex;
+        justify-items: center;
+    }
+
+    .fundoimg {
+        margin-left: 1rem;
+        display: flex;
+        margin-top: 60px;
+        width: 50rem;
+        height: auto;
+        background-color: rgba(232, 239, 240, 0.897);
+        border-radius: 1rem;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .logoimg2 img {
+        margin-top: 10px;
+        margin-left: 0.5rem;
+        height: 80px;
+        width: 80px;
+        border-radius: 1rem;
+    }
+
+    h2 {
+        display: flex;
+        font-family: "Poppins", serif;
+        justify-content: center;
+        transform: translate(0, -3.3rem);
+    }
+
+    #p-prin {
+        padding: 10px;
+        font-family: "Poppins", serif;
+        word-wrap: break-word;
+        transform: translate(0, -2rem);
     }
 }
 
